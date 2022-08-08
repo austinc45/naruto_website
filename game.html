@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+    <link href="game.css" rel="stylesheet">
+</head>
+<body>
+    <h1>
+        <div id='bar'>
+           <a href="index.html" class="item">HOME</a>
+           <a href="naruto.html" class="item">NARUTO</a>
+           <a href="sasuke.html" class="item">SASUKE</a>
+           <a href="sakura.html" id = 'sakura'>SAKURA</a>
+           <a href="source.html" class="item">SOURCES</a>
+           <a href = 'game.html' id="game">GAME</a>
+        </div >
+        <div id = 'small'>
+            <a href="index.html" id ='Home'>HOME</a>
+            <ul>
+            <li > <a id = 'click'>CHARACTER&#9660</a>
+             <ul id = 'drop'>
+                 <li><a href="naruto.html" class="item">NARUTO</a></li>
+                 <li> <a href="sasuke.html" class="item">SASUKE</a></li>
+                 <li><a href="sakura.html" id = 'sakura1'>SAKURA</a></li>
+             </ul>
+         </li>
+         </ul>
+             <a href="source.html"  id = "sources">SOURCES</a>
+             <a href = 'game.html' id = 'game1'>GAME</a>
+         </div>
+    </h1>
+    <div>
+        <h2>GUESS THAT CHARACTER</h1>
+        <img id = 'character' src = 'images/sasuke.png'/>
+    <h1 id = 'answer'> I am </h1>
+    <div id = 'box'>
+    <input  id = 'guess'> 
+    <button id = 'submit_button'>submit!</button>
+</div>
+    </div>
+
+    <script src = 'game.js' defer></script>
+</body>
+</html>

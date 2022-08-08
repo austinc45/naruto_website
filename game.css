@@ -1,0 +1,87 @@
+#bar{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+}
+
+.item:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+#sakura:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+#game{
+  color: red;
+
+}
+
+h1{
+    text-align: center;
+    size: 20%;
+}
+#small{
+    display: none;
+}
+
+@media (max-width:900px){
+    #bar{
+        display: none;
+    }
+    #small{
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        background-color: lightskyblue;
+    }
+ ul li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    #Home{
+margin-top: 31px;
+    }
+    #sources{
+        margin-top:31px;
+    }
+    #game1{
+        margin-top: 31px;
+        color: red;
+    }
+
+    .naruto_img{
+        width: 30%;
+    }
+}
+@media (max-width: 530px) {
+    #bar{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .naruto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .naruto_img{
+        width: 50%;
+    }
+    
+    
+    #small{
+        display: none;
+    }
+}
